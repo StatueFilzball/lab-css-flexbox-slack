@@ -8,3 +8,1292 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (min-width: 1441px){
+    
+    html {
+        font-size: 10px;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        position: fixed;
+        height: 8rem
+    }
+
+    #mobile-nav{
+        display: flex
+    }
+    
+    nav img {
+        height: 3rem;
+        padding-left: 3rem;
+    }
+
+    #menu-icon{
+        display: none;
+    }
+
+    .nav-bar-button{
+        width: 7vw;
+        border-radius: 0.3rem;
+    }
+
+    #nav-bar-button-white{
+background-color: white;
+display: flex;
+align-items: center;
+    justify-content: center
+    }
+
+    #nav-bar-button-white a{
+    color:#540B51;
+    }
+
+
+    
+
+    #tablet-nav-flex{
+        display: flex; 
+        justify-content: space-between;
+        width: 100vw
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none; 
+    }
+
+    nav ul li{
+        padding-left: 2rem;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white
+    }
+    
+    nav button {
+        background-color: #540B51;
+        border: none;
+        padding-right: 3rem;
+    }
+    
+    #header-opening {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw
+    }
+    
+    #header-opening h1{
+        color: white;
+        font-size: 8rem;
+        text-align: center;
+        width: 44vw
+    }
+    
+    #header-opening p{
+        color: white;
+    }
+    
+    #header-opening p span{
+        color: orange;
+    }
+    
+    #header-opening p span, #header-opening p{
+        font-size: 3.5rem;
+    }
+    
+    #header-cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45vw
+    }
+    
+    header {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        padding-bottom: 8rem;
+    }
+    .navBarSeparator{
+        padding-top: 3rem;
+    }
+    
+    header div button{
+        height: 80px;
+        width: 44vw;
+        border-radius: 1rem;
+    }
+    
+    #email-cta{
+        color:#540B51;
+        font-size: 2.8rem;
+    }
+    
+    #google-signup-cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4285F4;
+    }
+    
+    #google-signup-cta span{
+        margin: auto auto
+    }
+    
+    #google-signup-cta img{
+    height: 60px;
+    background-color: white;
+    margin: auto 0
+    }
+    
+    #google-signup-cta span{
+    color: white;
+    font-size: 2.8rem;
+    display: flex;
+    }
+    
+    #header-screenshot{
+        width: 40vw;
+        padding-top: 2rem;
+    }
+    
+    #company-trust{
+        text-align: center;
+        font-size: 3.5rem;
+        background-color: #F3EAE2;
+    
+    }
+    
+    .ivory-background{
+        background-color: #F3EAE2;
+    }
+    
+    #company-logos{
+        display: flex;
+    justify-content: space-evenly;    flex-wrap: nowrap;
+        width: 100vw;
+    }
+    
+    .company-logo-sizer{
+        height: 6rem
+    }
+    
+    h2, h3{
+        font-size: 5rem;
+    }
+    
+    .usp-explainer{
+        font-size: 2.5rem;
+    }
+    
+    .cta-link-usp-section{
+        font-size: 3rem;
+        text-decoration: none;
+        
+    }
+    
+    .cta-link-usp-section{
+        font-size: 2rem;
+        text-decoration: none;
+        
+    }
+    
+    h3{
+        text-align: center;
+        margin: auto 7rem
+    }
+    
+    #sales-pitch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #sales-cta-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #column-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #540B51;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+    
+    #column-flexer h3{
+        color: white;
+        padding-bottom: 4rem;
+    }
+    
+    #footer-flex{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-list-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        list-style: none;}
+    
+    #post-footer-list{
+        display:flex;
+        justify-content: space-around;
+        list-style: none;}
+    
+    
+    
+    #social-media-icons{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    #sales-paragraph{
+        text-align: center;
+        width: 90vw;
+    }
+    
+    .purple-button{
+    width: 90vw;
+    font-size: 2.5rem;
+    background-color: #540B51;
+    color: white;    border-radius: 1rem;
+        height: 80px;
+        margin-bottom: 2rem;
+    }
+    
+    .white-button{
+        width: 90vw;
+        font-size: 2.5rem;
+        background-color: white;
+        color: #540B51;
+        border: 2px solid #540B51;
+        border-radius: 1rem;
+        height: 80px;
+    }
+
+    #purple-button-small-screen{
+        width: 40vw
+    }
+    
+    #purple-button-border{
+        border: 1px solid white;
+    }
+    
+    .awesome-social-proof{
+    font-size: 5rem;
+    text-align: center;
+    color: #540B51;
+    }
+    
+    .li-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .li-flexer p{
+        font-size: 1.5rem;
+        width: 30vw;
+        text-align: center;
+    }
+    
+    footer img{
+        height: 8rem;
+        padding-left: 5vw;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .list-padding{
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    #social-media-icons{
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    small{
+        font-size: 1.5rem;
+        
+    }
+    .big-image-sizer{
+        max-width: 70vw;
+        object-fit: fill;
+    }
+
+    #right-align{
+        display:flex;
+    }
+    
+    #social-trust-row-flex{
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    
+    html {
+        font-size: 10px;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        position: fixed;
+        height: 8rem
+    }
+
+    #mobile-nav{
+        display: flex
+    }
+    
+    nav img {
+        height: 3rem;
+        padding-left: 3rem;
+    }
+
+    #menu-icon{
+        display: none;
+    }
+
+    .nav-bar-button{
+        width: 7vw;
+        border-radius: 0.3rem;
+    }
+
+    #nav-bar-button-white{
+background-color: white;
+display: flex;
+align-items: center;
+    justify-content: center
+    }
+
+    #nav-bar-button-white a{
+    color:#540B51;
+    }
+
+
+  
+
+    #tablet-nav-flex{
+        display: flex; 
+        justify-content: space-between;
+        width: 100vw
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none; 
+    }
+
+    nav ul li{
+        padding-left: 2rem;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white
+    }
+    
+    nav button {
+        background-color: #540B51;
+        border: none;
+        padding-right: 3rem;
+    }
+    
+    #header-opening {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw
+    }
+    
+    #header-opening h1{
+        color: white;
+        font-size: 8rem;
+        text-align: center;
+        width: 44vw
+    }
+    
+    #header-opening p{
+        color: white;
+    }
+    
+    #header-opening p span{
+        color: orange;
+    }
+    
+    #header-opening p span, #header-opening p{
+        font-size: 3.5rem;
+    }
+    
+    #header-cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 45vw
+    }
+    
+    header {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        padding-bottom: 8rem;
+    }
+    .navBarSeparator{
+        padding-top: 3rem;
+    }
+    
+    header div button{
+        height: 80px;
+        width: 44vw;
+        border-radius: 1rem;
+    }
+    
+    #email-cta{
+        color:#540B51;
+        font-size: 2.8rem;
+    }
+    
+    #google-signup-cta{
+        display: flex;
+        background-color: #4285F4;
+        margin-top: 1rem;
+    }
+    
+    #google-signup-cta span{
+        margin: auto auto
+    }
+
+    .tablet-flex{
+        display:flex
+    }
+    
+    #google-signup-cta img{
+    height: 60px;
+    background-color: white;
+    margin: auto 0
+    }
+    
+    #google-signup-cta span{
+    color: white;
+    font-size: 2.8rem;
+    display: flex;
+    }
+    
+    #header-screenshot{
+        width: 40vw;
+        padding-top: 2rem;
+    }
+    
+    #company-trust{
+        text-align: center;
+        font-size: 3.5rem;
+        background-color: #F3EAE2;
+    
+    }
+    
+    .ivory-background{
+        background-color: #F3EAE2;
+    }
+    
+    #company-logos{
+        display: flex;
+    justify-content: space-evenly;    flex-wrap: nowrap;
+        width: 100vw;
+    }
+    
+    .company-logo-sizer{
+        height: 6rem
+    }
+    
+    h2, h3{
+        font-size: 5rem;
+    }
+    
+    .usp-explainer{
+        font-size: 2.5rem;
+    }
+    
+    .cta-link-usp-section{
+        font-size: 3rem;
+        text-decoration: none;
+        
+    }
+    
+    .cta-link-usp-section{
+        font-size: 2rem;
+        text-decoration: none;
+        
+    }
+    
+    h3{
+        text-align: center;
+        margin: auto 7rem
+    }
+    
+    #sales-pitch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #sales-cta-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #column-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #540B51;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+    
+    #column-flexer h3{
+        color: white;
+        padding-bottom: 4rem;
+    }
+    
+    #footer-flex{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-list-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        list-style: none;}
+    
+    #post-footer-list{
+        display:flex;
+        justify-content: space-around;
+        list-style: none;}
+    
+    
+    
+    #social-media-icons{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    #sales-paragraph{
+        text-align: center;
+        width: 90vw;
+    }
+    
+    .purple-button{
+    width: 90vw;
+    font-size: 2.5rem;
+    background-color: #540B51;
+    color: white;    border-radius: 1rem;
+        height: 80px;
+        margin-bottom: 2rem;
+    }
+    
+    .white-button{
+        width: 90vw;
+        font-size: 2.5rem;
+        background-color: white;
+        color: #540B51;
+        border: 2px solid #540B51;
+        border-radius: 1rem;
+        height: 80px;
+    }
+
+    #purple-button-small-screen{
+        width: 40vw
+    }
+    
+    #purple-button-border{
+        border: 1px solid white;
+    }
+    
+    .awesome-social-proof{
+    font-size: 5rem;
+    text-align: center;
+    color: #540B51;
+    }
+    
+    .li-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .li-flexer p{
+        font-size: 1.5rem;
+        width: 30vw;
+        text-align: center;
+    }
+    
+    footer img{
+        height: 8rem;
+        padding-left: 5vw;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .list-padding{
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    #social-media-icons{
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    small{
+        font-size: 1.5rem;
+        
+    }
+    .big-image-sizer{
+        max-width: 70vw;
+        object-fit: fill;
+    }
+
+    #right-align{
+        display:flex;
+    }
+    
+    #social-trust-row-flex{
+        display: flex;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    
+    html {
+        font-size: 10px;
+        width: 100vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        position: fixed;
+        height: 8rem
+    }
+    
+    nav img {
+        height: 3rem;
+        padding-left: 3rem;
+    }
+    
+    nav ul{
+        display: none
+    }
+    
+    nav button {
+        background-color: #540B51;
+        border: none;
+        padding-right: 3rem;
+    }
+    
+    #header-opening {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw
+    }
+    
+    #header-opening h1{
+        color: white;
+        font-size: 8rem;
+        text-align: center;
+        width: 44vw
+    }
+    
+    #header-opening p{
+        color: white;
+    }
+    
+    #header-opening p span{
+        color: orange;
+    }
+    
+    #header-opening p span, #header-opening p{
+        font-size: 3.5rem;
+    }
+    
+    #header-cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 45vw
+    }
+    
+    header {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        padding-bottom: 8rem;
+    }
+    .navBarSeparator{
+        padding-top: 3rem;
+    }
+    
+    header div button{
+        height: 80px;
+        width: 44vw;
+        border-radius: 1rem;
+    }
+    
+    #email-cta{
+        color:#540B51;
+        font-size: 2.8rem;
+    }
+    
+    #google-signup-cta{
+        display: flex;
+        background-color: #4285F4;
+        margin-top: 1rem;
+    }
+    
+    #google-signup-cta span{
+        margin: auto auto
+    }
+    
+    #google-signup-cta img{
+    height: 60px;
+    background-color: white;
+    margin: auto 0
+    }
+    
+    #google-signup-cta span{
+    color: white;
+    font-size: 2.8rem;
+    display: flex;
+    }
+    
+    #header-screenshot{
+        width: 40vw;
+        padding-top: 2rem;
+        background-color: #540B51;
+    }
+    
+    #company-trust{
+        text-align: center;
+        font-size: 3.5rem;
+        background-color: #F3EAE2;
+    
+    }
+    
+    .ivory-background{
+        background-color: #F3EAE2;
+    }
+    
+    #company-logos{
+        display: flex;
+    justify-content: space-evenly;    
+    flex-wrap: nowrap;
+        width: 100vw;
+    }
+    
+    .company-logo-sizer{
+        height: 6rem
+    }
+    
+    h2, h3{
+        font-size: 5rem;
+    }
+    
+    .usp-explainer{
+        font-size: 2.5rem;
+    }
+    
+    .cta-link-usp-section{
+        font-size: 3rem;
+        text-decoration: none;
+        
+    }
+    
+    .cta-link-usp-section{
+        font-size: 2rem;
+        text-decoration: none;
+        
+    }
+    
+    h3{
+        text-align: center;
+        margin: auto 7rem
+    }
+    
+    #sales-pitch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #sales-cta-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #column-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #540B51;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+    }
+    
+    #column-flexer h3{
+        color: white;
+        padding-bottom: 4rem;
+    }
+    
+    #footer-flex{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-list-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        list-style: none;}
+    
+    #post-footer-list{
+        display:flex;
+        justify-content: space-around;
+        list-style: none;}
+    
+    
+    
+    #social-media-icons{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    #sales-paragraph{
+        text-align: center;
+        width: 90vw;
+    }
+    
+    .purple-button{
+    width: 90vw;
+    font-size: 2.5rem;
+    background-color: #540B51;
+    color: white;    border-radius: 1rem;
+        height: 80px;
+        margin-bottom: 2rem;
+    }
+    
+    .white-button{
+        width: 90vw;
+        font-size: 2.5rem;
+        background-color: white;
+        color: #540B51;
+        border: 2px solid #540B51;
+        border-radius: 1rem;
+        height: 80px;
+    }
+
+    #purple-button-small-screen{
+        width: 40vw
+    }
+    
+    #purple-button-border{
+        border: 1px solid white;
+    }
+    
+    .awesome-social-proof{
+    font-size: 5rem;
+    text-align: center;
+    color: #540B51;
+    }
+    
+    .li-flexer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .li-flexer p{
+        font-size: 1.5rem;
+        width: 30vw;
+        text-align: center;
+    }
+    
+    footer img{
+        height: 8rem;
+        padding-left: 5vw;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .list-padding{
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    #social-media-icons{
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    small{
+        font-size: 1.5rem;
+        
+    }
+    .big-image-sizer{
+        max-width: 70vw;
+        object-fit: fill;
+    }
+
+    #right-align{
+        display:flex;
+    }
+    
+    #social-trust-row-flex{
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+html {
+    font-size: 10px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    height: 8rem
+}
+
+nav img {
+    height: 3rem;
+    padding-left: 3rem;
+}
+
+nav ul{
+    display: none
+}
+
+nav button {
+    background-color: #540B51;
+    border: none;
+    padding-right: 3rem;
+}
+
+#header-opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-opening h1{
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+}
+
+#header-opening p{
+    color: white;
+}
+
+#header-opening p span{
+    color: orange;
+}
+
+#header-opening p span, #header-opening p{
+    font-size: 3.5rem;
+}
+
+#header-cta {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+}
+.navBarSeparator{
+    padding-top: 3rem;
+}
+
+header div button{
+    height: 80px;
+    width: 90vw;
+    border-radius: 1rem;
+}
+
+#email-cta{
+    color:#540B51;
+    font-size: 2.8rem;
+}
+
+#google-signup-cta{
+    display: flex;
+    background-color: #4285F4;
+    margin-top: 1rem;
+}
+
+#google-signup-cta span{
+    margin: auto auto
+}
+
+#google-signup-cta img{
+height: 60px;
+background-color: white;
+margin: auto 0
+}
+
+#google-signup-cta span{
+color: white;
+font-size: 2.8rem;
+display: flex;
+}
+
+#header-screenshot{
+    
+    padding-top: 2rem;
+}
+
+#header-image-column-flex{
+    width: 40vw;
+}
+
+
+#company-trust{
+    text-align: center;
+    font-size: 3.5rem;
+    background-color: #F3EAE2;
+
+}
+
+.ivory-background{
+    background-color: #F3EAE2;
+}
+
+#company-logos{
+    display: flex;
+justify-content: space-evenly;   
+flex-wrap: nowrap; 
+    width: 100vw;
+}
+
+.company-logo-sizer{
+    height: 2rem
+}
+
+h2, h3{
+    font-size: 5rem;
+}
+
+.usp-explainer{
+    font-size: 2.5rem;
+}
+
+.cta-link-usp-section{
+    font-size: 3rem;
+    text-decoration: none;
+    
+}
+
+.cta-link-usp-section{
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+h3{
+    text-align: center;
+    margin: auto 7rem
+}
+
+#sales-pitch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#column-flexer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #540B51;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+#column-flexer h3{
+    color: white;
+    padding-bottom: 4rem;
+}
+
+#footer-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.footer-list-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style: none;}
+
+#post-footer-list{
+    display:flex;
+    flex-direction: column;
+    list-style: none;}
+
+
+
+#social-media-icons{
+    display:flex;
+    justify-content: space-between;
+}
+
+#sales-paragraph{
+    text-align: center;
+    width: 90vw;
+}
+
+.purple-button{
+width: 90vw;
+font-size: 2.5rem;
+background-color: #540B51;
+color: white;    border-radius: 1rem;
+    height: 80px;
+    margin-bottom: 2rem;
+}
+
+.white-button{
+    width: 90vw;
+    font-size: 2.5rem;
+    background-color: white;
+    color: #540B51;
+    border: 2px solid #540B51;
+    border-radius: 1rem;
+    height: 80px;
+}
+
+#purple-button-border{
+    border: 1px solid white;
+}
+
+.awesome-social-proof{
+font-size: 5rem;
+text-align: center;
+color: #540B51;
+}
+
+.li-flexer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-flexer p{
+    font-size: 1.5rem;
+    width: 30vw;
+    text-align: center;
+}
+
+footer img{
+    height: 8rem;
+    padding-left: 5vw;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.list-padding{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#social-media-icons{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+small{
+    font-size: 1.5rem;
+    
+}
+
+.big-image-sizer{
+    width: 100vw
+}
+
+
+
+}
+
